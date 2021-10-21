@@ -13,8 +13,7 @@
         "prettier:ci": "prettier --check src"
     },
     "files": [
-        "lib/*",
-        "@types/*"
+        "lib/*"
     ],
     "keywords": [
         "vue",
