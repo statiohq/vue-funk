@@ -2,7 +2,7 @@
     "name": "@statio/vue-funk",
     "version": "1.0.0",
     "main": "lib/lib.js",
-    "typings": "@types/lib.d.ts",
+    "typings": "lib/lib.d.ts",
     "repository": "https://github.com/statiohq/vue-funk.git",
     "author": "OfficialCRUGG <ich@crugg.de>",
     "license": "MIT",
@@ -31,6 +31,7 @@
         "@statio/funk.js": "^1.0.0"
     },
     "devDependencies": {
-        "prettier": "^2.4.1"
+        "prettier": "^2.4.1",
+        "vue": "^2.6.14"
     }
 }
