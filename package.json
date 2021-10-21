@@ -1,8 +1,8 @@
 {
     "name": "@statio/vue-funk",
     "version": "1.0.0",
-    "main": "dist/lib.js",
-    "typings": "dist/lib.d.ts",
+    "main": "lib/lib.js",
+    "typings": "@types/lib.d.ts",
     "repository": "https://github.com/statiohq/vue-funk.git",
     "author": "OfficialCRUGG <ich@crugg.de>",
     "license": "MIT",
@@ -13,14 +13,15 @@
         "prettier:ci": "prettier --check src"
     },
     "files": [
-        "dist/*"
+        "lib/*",
+        "@types/*"
     ],
     "keywords": [
         "vue",
         "api",
         "wrapper",
         "library",
-        "typescript",
+        "javascript",
         "websocket",
         "realtime",
         "funk",
@@ -30,10 +31,6 @@
         "@statio/funk.js": "^1.0.0"
     },
     "devDependencies": {
-        "@types/node": "^16.11.1",
-        "prettier": "^2.4.1",
-        "rimraf": "^3.0.2",
-        "typescript": "^4.4.4",
-        "vue": "^2.6.14"
+        "prettier": "^2.4.1"
     }
 }
