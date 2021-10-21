@@ -37,7 +37,7 @@ export default {
         };
     },
     mounted() {
-        this.funkInstance = this.$funk.create({ urlOverride: "ws://localhost:612", debugLogging: true });
+        this.funkInstance = this.$funk({ urlOverride: "ws://localhost:612", debugLogging: true });
         this.funkInstance.on("fullData", (fullData) => {
             this.stations = fullData;
         });
